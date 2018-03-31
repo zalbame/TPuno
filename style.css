@@ -1,15 +1,15 @@
-.textcontainer{
+.cards-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.tarjeta{
+.card{
     display: flex;
     align-items: center;
     
 }
 
-.info{
+.card-info{
     width: 200px;
     margin-left: 10px;
 }
@@ -22,7 +22,7 @@
     max-width: 100%;
 }
 
-.theend{
+.footer-section{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
