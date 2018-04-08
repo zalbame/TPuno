@@ -27,3 +27,23 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+.header-section{
+    display: flex;
+    justify-content: space-between;
+}
+.botonera{
+    margin: 5px;
+}
+.profile-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.profile-description{
+    display: flex;
+    align-items: stretch;
+
+}
+.section{
+    margin-bottom: 5px;
+}
