@@ -47,3 +47,12 @@
 .section{
     margin-bottom: 5px;
 }
+.icon{
+    max-width: 36px;
+    max-height: 36px;
+    margin: 5px;
+}
+.profile-links{
+    display: flex;
+    align-items: flex-end;
+}
