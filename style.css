@@ -1,3 +1,13 @@
+.imagenlogo {
+    width: 100px;
+    height: 30px;
+}
+
+.boxita {
+  width: 100px;
+  height: 100px;
+}
+
 .cards-section{
     display: flex;
     flex-wrap: wrap;
@@ -5,8 +15,12 @@
 }
 .card{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
+}
+
+.box {
+  width: 150px;
+  height: 150px;
 }
 
 .card-info{
@@ -18,8 +32,10 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .slider{
-    max-width: 100%;
+    width: 1480px;
+    height: 340px;
 }
 
 .footer-section{
