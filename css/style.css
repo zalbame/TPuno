@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+
+.main-container {
+	margin: 0;
+	width: 1480px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header-section {
+  background-color: pink;
+  display: inline-flex;
+  flex-direction: row;
+  height: 60px;
+}
+
+.cajita {
+	width: 50%;
+}
+
+.imagenLogo {
+	width: 100px;
+	height: 50px;
+}
+
+.profile-section {
+	height: 120px;
+	background-color: green;
+}
+
+.profile-description {
+	width: 50%;
+	display: flex;
+}
+
+.boxitaContainer {
+	width: 20%;
+	height: auto;
+}
+
+.boxitaContainer img {
+	width: 100px;
+	height: 100px;
+}
+
+.profile-links {
+	width: 50%;
+}
+
+
+.icon {
+	width: 36px;
+	height: 36px;
+}
+
+.slider-section {
+	width: 100%;
+}
+
+.slieder-section img {
+	width: 1480px;
+	height: 340px;
+}
+
+.cards-section{
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+	width: 100%;
+}
+
+.mail {
+	width: 50%;
+	background-color: grey;
+}
+
+.links {
+	width: 50%;
+	background-color: yellow;
+}

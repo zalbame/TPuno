@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-container {
+font-family: 'Do Hyeon', sans-serif;
+}
+
+.slider-container {
+	margin-top: 10px;
+	width: 100%;
+	height: 340px;
+	background-color: lightpink;
+	text-align: center;
+}
+
+.slider-container img {
+	width: 100%;
+	height: 340px;
+}
+
+.box-container {
+	display: flex;
+	margin-top:10px;
+	justify-content: flex-start;
+	max-width: 1480px;
+	height: 200 px;
+	padding: 10px;
+	background-color: #d5b8ff;
+}
+
+.box {
+	height: auto;
+	width: 490px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.thumb {
+	background-color: peru;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+}
+.thumb img {
+	width: 100%;
+	height: 100%;
+}
+
+.text-container {
+	margin-left: 20px;
+}
+
+.text-container h4 {
+	margin-top: 0;
+}
+
+.main-container {
+	background-color: #fcfcfc;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+
+.nav-container {
+	margin-bottom: 10px;
+	padding: 0;
+	height: 60px;
+	background-color: #ffe3f9;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navimg {
+	width: 60px;
+	height: auto;
+
+}
+
+.menu-container {
+display: flex;
+width: 800px;
+justify-content: flex-end;
+align-content: flex-end;
+}
+
+ul {
+	text-align: right;
+	margin-right: 1%;
+}
+
+li {
+	margin-right: 4px;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #952cff;
+}
+
+.who-container {
+	display: flex;
+	align-items:flex-end;
+	justify-content: space-between;
+	height: 120px;
+	background-color: #d5b8ff;
+	padding-bottom: 10px
+}
+
+.charlie {
+width: 100px;
+height: 100px;
+margin-left: 20px;
+}
+
+.who {
+	height: 100px;
+	width: 980px;
+	margin-left: 50px;
+}
+
+h3 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.ico {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.ico strong {
+	font-size: 16px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.ts {
+	width: 36px;
+	height: auto;
+	margin-left: 3px;
+}
+
+.footer-container {
+	max-width: 1480px;
+	height: 80px;
+	margin-top: 10px;
+	background-color: #ffe3f9;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.email {
+	margin-left: 20px;
+}
+
+.social-container {
+	display: flex;
+}
+
+.social-icons {
+	width: 36px;
+	height: 36px;
+	background-color: white;
+	margin-right: 20px;
+}
